@@ -21,7 +21,8 @@ public class PalindromeNum {
         // Check if the original number is equal to the reversed number
         if (originalNum == reversedNum) {
             System.out.println(originalNum + " is a palindrome.");
-        } else {
+        } 
+        else {
             System.out.println(originalNum + " is not a palindrome.");
         }
     }
